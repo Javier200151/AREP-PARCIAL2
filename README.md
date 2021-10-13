@@ -44,7 +44,38 @@ Pruebas en Docker en AWS
 
 ![](img/pruebatan.png)
 
-## Instrucciones
+## Instrucciones AWS
+1. Acceda a la máquina virtual e instale Docker
+
+```
+sudo yum install docker
+```
+
+2. Inicie el servicio de docker
+
+```
+sudo service docker start
+```
+
+3. Configure su usuario en el grupo de docker para no tener que ingresar “sudo” cada vez que invoca un comando
+
+```
+sudo usermod -a -G docker ec2-user
+```
+
+4. Desconectes de la máquina virtual e ingrese nuevamente para que la configuración de grupos de usuarios tenga efecto. A partir de la imagen creada en Dockerhub cree una instancia de un contenedor docker independiente de la consola (opción “-d”) y con el puerto 6000 enlazado a un puerto físico de su máquina (opción -p):
+
+```
+docker run -d -p 42000:6000 --name dockerimageaws javier3005/arep-parcial
+```
+
+5. Abra los puertos de entrada del security group de la máxima virtual para acceder al servicio
+
+6. Ya se puede iniciar desde su link AWS y probarlo
+
+http://ec2-3-88-144-101.compute-1.amazonaws.com:42000/tan?value=90
+
+## Instrucciones Local
 
 1. Clonar el repositorio
 
