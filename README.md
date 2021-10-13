@@ -12,7 +12,7 @@ Funciones asignadas
 * Docker 
 * AWS Cloud
 
-## Prerequisites
+## Prerequisitos
 * Docker - Container Manager
 * Java 8 - Development Environment
 * Git - Version Control System
