@@ -1,8 +1,7 @@
-# TALLER DE DE MODULARIZACIÓN CON VIRTUALIZACIÓN E INTRODUCCIÓN A DOCKER Y A AWS
-
-El taller es una aplicación web usando Spark java. Esta aplicación se construyo en un container
-para docker para la aplicación, se desplegó y se probó en una maquina local. Por ultimo se desplegó
-el contenedor que se creo en una maquina virtual en AWS con Docker instalado
+# AREP PARCIAL CALCULADORA
+Funciones asignadas
+- Tangente (tan(x)))
+- Exponencial (e^x)
 
 ## Autor
 * Javier Esteban López Peña
@@ -12,9 +11,6 @@ el contenedor que se creo en una maquina virtual en AWS con Docker instalado
 * Maven - Gestor de dependencias
 * Docker 
 * AWS Cloud
-
-## Docker https://hub.docker.com/repository/docker/javier3005/arep-parcial
-## Video https://youtu.be/pLMGWHEBCU8
 
 ## Prerequisites
 * Docker - Container Manager
@@ -26,27 +22,27 @@ el contenedor que se creo en una maquina virtual en AWS con Docker instalado
 
 Imagenes en Docker
 
-![](img/imageslocal.PNG)
+![](img/imageslocal.png)
 
 Container en Docker 
 
-![](img/containerlocal.PNG)
+![](img/containerlocal.png)
 
 Corriendo Docker en el AWS
 
-![](img/dockeraws.PNG)
+![](img/dockeraws.png)
 
 Pruebas en Docker local
 
-![](img/dockerexp.PNG)
+![](img/dockerexp.png)
 
-![](img/dockertan.PNG)
+![](img/dockertan.png)
 
 Pruebas en Docker en AWS
 
-![](img/pruebaexp.PNG)
+![](img/pruebaexp.png)
 
-![](img/pruebatan.PNG)
+![](img/pruebatan.png)
 
 ## Instrucciones
 
