@@ -113,5 +113,7 @@ docker run -d -p 34000:6000 --name dockercontainer dockersparkcalculadora
 - Tangente localhost:34000/tan?value=10
 - Exponencial localhost:34000/exp?value=10
 
-## Docker https://hub.docker.com/repository/docker/javier3005/arep-parcial
-## Video https://youtu.be/pLMGWHEBCU8
+## Links
+
+- Docker https://hub.docker.com/repository/docker/javier3005/arep-parcial
+- Video https://youtu.be/pLMGWHEBCU8
