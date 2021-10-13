@@ -73,7 +73,8 @@ docker run -d -p 42000:6000 --name dockerimageaws javier3005/arep-parcial
 
 6. Ya se puede iniciar desde su link AWS y probarlo
 
-http://ec2-3-88-144-101.compute-1.amazonaws.com:42000/tan?value=90
+Tangente http://ec2-3-88-144-101.compute-1.amazonaws.com:42000/tan?value=90
+Exponencial http://ec2-3-88-144-101.compute-1.amazonaws.com:42000/exp?value=90
 
 ## Instrucciones Local
 
@@ -106,6 +107,11 @@ docker images
 ```
 docker run -d -p 34000:6000 --name dockercontainer dockersparkcalculadora
 ```
+
+6. Para probarlo usa
+
+Tangente localhost:34000/tan?value=10
+Exponencial localhost:34000/exp?value=10
 
 ## Docker https://hub.docker.com/repository/docker/javier3005/arep-parcial
 ## Video https://youtu.be/pLMGWHEBCU8
